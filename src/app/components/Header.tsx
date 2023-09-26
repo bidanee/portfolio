@@ -1,6 +1,5 @@
 "use client";
 import Link from "next/link";
-import styled from "styled-components";
 import tw from "tailwind-styled-components";
 import { links } from "../datas/data";
 
