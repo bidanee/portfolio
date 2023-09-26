@@ -1,3 +1,7 @@
 export default function About() {
-  return <div>About</div>;
+  return (
+    <div id="about">
+      <div className="mt-[4.5rem]">About</div>
+    </div>
+  );
 }
