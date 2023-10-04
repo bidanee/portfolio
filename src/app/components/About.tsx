@@ -1,7 +1,9 @@
 export default function About() {
   return (
     <div id="about">
-      <div className="mt-[4.5rem]">About</div>
+      <div className="w-full h-screen flex justify-center items-center">
+        About
+      </div>
     </div>
   );
 }

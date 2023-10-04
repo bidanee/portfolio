@@ -2,7 +2,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
-import Projects from "./components/Projects";
+import Projects from "./components/projects/Projects";
 import Skills from "./components/Skill";
 
 export default function App() {

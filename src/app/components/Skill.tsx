@@ -1,7 +1,9 @@
 export default function Skills() {
   return (
     <div id="skills">
-      <div className="mt-[4.5rem]">Skills</div>
+      <div className="w-full h-screen flex justify-center items-center">
+        Skills
+      </div>
     </div>
   );
 }
