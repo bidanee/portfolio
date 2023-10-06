@@ -5,9 +5,12 @@ import { links } from "../datas/data";
 
 const Header = () => {
   return (
-    <HeaderTag>
-      <Container>
-        <a href="/" className="ml-[3rem] text-xl font-black">
+    <header className="z-[999] relative w-full">
+      <div className="fixed top-0 h-[4.5rem] w-full flex justify-between items-center border-b-2 border-b-inherit  bg-white bg-opacity-50">
+        <a
+          href="/"
+          className="w-screen flex justify-center sm:ml-[3rem]  text-xl font-black"
+        >
           LEE DANBI Portfolio
         </a>
         <nav className="hidden md:block">
@@ -24,19 +27,16 @@ const Header = () => {
             ))}
           </ul>
         </nav>
-        <div className="btn btn-error md:hidden ">dd</div>
-      </Container>
-    </HeaderTag>
+        <div className="btn btn-error hidden sm:flex sm:mr-[2rem] md:hidden">
+          dd
+        </div>
+      </div>
+    </header>
   );
 };
 
 export default Header;
 
-const HeaderTag = tw.header`
-  z-[999]
-  relative
-
-`;
 const Container = tw.div`
- fixed top-0 h-[4.5rem] w-full flex justify-between items-center border-b-2 border-b-inherit  bg-white bg-opacity-50
+ 
 `;
